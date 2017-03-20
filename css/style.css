@@ -1,0 +1,154 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear Class */
+.clear {
+	clear: both;
+}
+
+
+body {
+  font-family: avenir;
+  font-size: 20px;
+}
+
+#header {
+  background-color: Silver;
+  
+  
+}
+
+.buscard {
+  padding: 100px;
+  text-align: center;
+  background-image: url('https://static.pexels.com/photos/196645/pexels-photo-196645.jpeg');
+  background-size: cover;
+  padding: 210px;
+  margin-top: 0px;
+}
+
+.buscard img {
+  opacity: 0.6;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+p {
+  font-size: 19px;
+}
+
+
+.fa-angle-double-down {
+    font: 14px;
+    text-align: center;
+
+}
+
+#main {
+  background-color: black;
+  padding: 50px;
+} 
+
+#quote {
+  background-color: black;
+
+
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 0px;
+  color: white;
+}
+
+.colored {
+  border-color: #EF4035;
+  border-right: none;
+  border-left: none;
+  width: 500px;
+  padding: 2px;
+
+}
+
+.blurb {
+	padding: 50px;
+  padding-bottom: 40px;
+	width: 600px;
+	float: left;
+  
+}
+
+.image {
+  width: 400px;
+  margin-right: 50px;
+  padding-left: 60px;
+  float: left;
+}
+
+#plan {
+  background-color: #aa0000;
+  padding: 0px;
+  margin-bottom: 0px;
+
+}
+
+.process {
+  padding: 40px;
+  background-color: #aa0000;
+
+}
+
+.col-one {
+  display: block;
+  list-style-type: none;
+  width: 30%;
+  float: left;
+}
+
+.col-two {
+  display: block;
+  list-style-type: none;
+  width: 30%;
+  float: left;
+}
+
+.col-three {
+  display: block;
+  list-style-type: none;
+  width: 30%;
+  float: left;
+}
+
+ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.5);
+    width: 98%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+#footer {
+  text-align: center;
+  background-color: Silver;
+	padding: 70px;
+  display: block;
+}
