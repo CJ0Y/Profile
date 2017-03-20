@@ -1,3 +1,4 @@
+
 * {
      -moz-box-sizing: border-box; /* Firexfox */
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
@@ -42,37 +43,18 @@ p {
   font-size: 19px;
 }
 
-
-.fa-angle-double-down {
-    font: 14px;
-    text-align: center;
-
+down {
+  padding: 50px;
+  img-align: center;
 }
-
 #main {
-  background-color: black;
+  background-color: Silver;
   padding: 50px;
 } 
 
-#quote {
-  background-color: black;
-
-
-}
-
 h2 {
   text-align: center;
-  padding-bottom: 0px;
-  color: white;
-}
-
-.colored {
-  border-color: #EF4035;
-  border-right: none;
-  border-left: none;
-  width: 500px;
-  padding: 2px;
-
+  padding-bottom: 50px;
 }
 
 .blurb {
@@ -90,48 +72,12 @@ h2 {
   float: left;
 }
 
-#plan {
-  background-color: #aa0000;
-  padding: 0px;
-  margin-bottom: 0px;
-
-}
-
-.process {
-  padding: 40px;
-  background-color: #aa0000;
-
-}
-
-.col-one {
-  display: block;
-  list-style-type: none;
-  width: 30%;
-  float: left;
-}
-
-.col-two {
-  display: block;
-  list-style-type: none;
-  width: 30%;
-  float: left;
-}
-
-.col-three {
-  display: block;
-  list-style-type: none;
-  width: 30%;
-  float: left;
-}
-
 ul {
     list-style-type: none; 
     margin: 0;
     padding: 0;
-    position: fixed;
     overflow: hidden;
     background-color: rgba(0,0,0,0.5);
-    width: 98%;
 }
 
 li {
@@ -149,6 +95,6 @@ li a {
 #footer {
   text-align: center;
   background-color: Silver;
-	padding: 70px;
-  display: block;
+	padding: 50px;
+  align: center;
 }
